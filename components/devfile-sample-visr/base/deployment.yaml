@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-visr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0061-tenant/tkrw-pr712-0075-0061-app/devfile-sample-visr@sha256:bf738e4f7541f90b9cd8d762613ee162f81cd441939e2122e788c3b7db91d8eb
         name: my-nodejs
         ports:
         - containerPort: 3001
