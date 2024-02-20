@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-visr
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0061-tenant/tkrw-pr712-0075-0061-app/devfile-sample-visr@sha256:bf738e4f7541f90b9cd8d762613ee162f81cd441939e2122e788c3b7db91d8eb
+        name: my-nodejs
+        resources: {}
+status: {}
